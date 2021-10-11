@@ -44,6 +44,8 @@ document.querySelector('.btn.check').addEventListener('click', function () {
     setMessage('⛔ Ohh man! you are out of game!');
   } else if (!guess) {
     setMessage('🔎 Please enter your guess');
+  } else if (!(guess >= 1 && guess <= 20)) {
+    setMessage(`⚠ ${guess} is an invalid number!`);
   } else if (guess === number) {
     setMessage('🎊 Correct Number!');
     document.querySelector('.highscore').textContent =

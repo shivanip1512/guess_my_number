@@ -117,3 +117,15 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+.socialMedia{
+  color: rgba(255, 255, 255,0.9);
+  font-size: 25px !important;
+  padding-right: 6px;
+}
+
+#references{
+    position: absolute;
+    bottom: 9px;
+    margin-left: 50%;
+}
